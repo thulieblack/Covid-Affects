@@ -15,11 +15,11 @@ To archive this we will be using Python's most popular libraries.
 - 'South America' : 4 
 - 'Oceania' : 5
 3. We fill the null/missing values with mean values using the *fillna* function.
-4. Before proceding to model training,we drop all the unnecessary columns we not going to use.
+4. Before proceeding to model training,we drop all the unnecessary columns we not going to use.
 # Step Three : Model Training
 1. We set *df['total_death']* as our target variable (*as our main goal is to predict the number of death toll*)
 2. Import the xgboost regressor,this is a decision-tree based supervised learning algorithm that uses a gradient boosting framework.
 3. Training the model,we'll split test 20% of the data and set our *random_state=0*
 
 # Prediction Results
-We got an accuracy of 99% from the trained model 
+After training our model,we got an accuracy score of 99% 
